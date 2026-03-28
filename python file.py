@@ -1,10 +1,8 @@
-
+import random
 ninety = []
 sixty = []
 thirty =[]
-
 tasks = []
-import random
 points = 0
 
 
@@ -43,7 +41,7 @@ if __name__ == "__main__":
   print("≫To-do list≪")
   while True:
     print("\n")
-    print("       MENU")
+    print(f"       MENU  {points} pts")
     print("╔══════⋆⋅☆⋅⋆══════╗")
     print("𝟷. Add task        ")
     print("𝟸. Complete task   ")
